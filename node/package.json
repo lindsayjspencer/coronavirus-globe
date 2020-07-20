@@ -1,0 +1,21 @@
+{
+  "name": "html-assets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.4.4",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "node-sass": "^4.14.1",
+    "three": "^0.118.3",
+    "tween.js": "^16.6.0",
+    "csv-parser": "^2.3.2",
+    "csv-writer": "^1.6.0"
+  }
+}
