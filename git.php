@@ -67,7 +67,7 @@ function run() {
                     $body .= $output. '</pre>';
                     $body .= '<p>Cheers, <br/>Github Webhook Endpoint</p>';
 
-                    mail($config['email']['to'], $endpoint['action'], $body, $headers);
+                //     mail($config['email']['to'], $endpoint['action'], $body, $headers);
                 }
                 return true;
             }
@@ -84,6 +84,6 @@ try {
         run();
     }
 } catch ( Exception $e ) {
-    $msg = $e->getMessage();
-    mail($error_mail, $msg, ''.$e);
+//     $msg = $e->getMessage();
+//     mail($error_mail, $msg, ''.$e);
 }
