@@ -273,7 +273,7 @@
 							<div class="progress-bar progress-bar-striped cases-t-progress" role="progressbar" style="width: 50%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
 						</div>
 						<div class="mb-2 d-flex flex-row mx-3 align-items-center">
-							<span class="mr-auto small-title">CASOS</span>
+							<span class="mr-auto small-title">CASES</span>
 							<div class="text-right text-black-50 cases-t-num"></div>
 						</div>
 						<div class="progress my-1 mx-3">
@@ -305,7 +305,7 @@
             <div class="d-flex flex-column left-panel-internal w-100 show flex-fill">
                 <div class="d-flex flex-column align-items-start mb-3">
 					<a href="#" class="highlight-btn btn btn-menu rounded-0 border-0 d-flex align-content-stretch p-0 w-100 highlight-cases active">
-						<span class="py-3 px-3">Cases</span>
+						<span class="py-3 px-3">Casos</span>
 						<i class="py-3 fas fa-notes-medical fa-fw ml-auto"></i>
 					</a>
                     <a href="#" class="highlight-btn btn btn-menu rounded-0 border-0 d-flex align-content-stretch p-0 w-100 highlight-deaths">
