@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo git pull
+sudo -u www-data git pull
