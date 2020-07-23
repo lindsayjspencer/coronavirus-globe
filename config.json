@@ -1,0 +1,14 @@
+{
+    "email": {
+        "from": "github-hook@example.com",
+        "to": "lindsayjspencer@gmail.com"
+    },
+    "endpoints": [
+        {
+            "repo": "lindsayjspencer/coronavirus-globe",
+            "branch": "master",
+            "action": "Updates pushed",
+            "run": "./git.sh"
+        }
+    ]
+}
