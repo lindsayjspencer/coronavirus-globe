@@ -234,7 +234,7 @@
 
 	<body>
 
-		<!-- <div class="loading-msg d-flex flex-column align-items-center">
+		<div class="loading-msg d-flex flex-column align-items-center">
 			<div class="loading-cog mb-2 mt-auto">
 				<i class="fas fa-cog fa-spin fa-3x"></i>
 			</div>
@@ -247,7 +247,7 @@
 			<h5 class="loading mb-auto mt-2">
 				Loading models
 			</h5>
-		</div> -->
+		</div>
         <div class="card country-menu d-flex flex-column rounded-0 align-items-center border-0">
             <div class="d-flex flex-column left-panel-internal w-100 show flex-fill">
                 <h4 class="d-flex flex-row align-items-center my-3 px-3">
