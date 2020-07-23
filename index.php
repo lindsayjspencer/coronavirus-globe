@@ -233,7 +233,7 @@
 	</head>
 
 	<body>
-	
+
 		<!-- <div class="loading-msg d-flex flex-column align-items-center">
 			<div class="loading-cog mb-2 mt-auto">
 				<i class="fas fa-cog fa-spin fa-3x"></i>
@@ -273,7 +273,7 @@
 							<div class="progress-bar progress-bar-striped cases-t-progress" role="progressbar" style="width: 50%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
 						</div>
 						<div class="mb-2 d-flex flex-row mx-3 align-items-center">
-							<span class="mr-auto small-title">CASES</span>
+							<span class="mr-auto small-title">CASOS</span>
 							<div class="text-right text-black-50 cases-t-num"></div>
 						</div>
 						<div class="progress my-1 mx-3">
