@@ -76,14 +76,8 @@ function run() {
         throw new Exception("This does not appear to be a valid requests from Github.\n");
     }
 }
-
-try {
-    if (!isset($_POST['payload'])) {
-        echo "Works fine.";
-    } else {
-        run();
-    }
-} catch ( Exception $e ) {
-//     $msg = $e->getMessage();
-//     mail($error_mail, $msg, ''.$e);
+if (!isset($_POST['payload'])) {
+echo "Works fine.";
+} else {
+run();
 }
