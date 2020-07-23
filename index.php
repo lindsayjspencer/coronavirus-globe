@@ -233,6 +233,7 @@
 	</head>
 
 	<body>
+	
 		<!-- <div class="loading-msg d-flex flex-column align-items-center">
 			<div class="loading-cog mb-2 mt-auto">
 				<i class="fas fa-cog fa-spin fa-3x"></i>
