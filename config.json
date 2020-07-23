@@ -8,7 +8,7 @@
             "repo": "lindsayjspencer/coronavirus-globe",
             "branch": "master",
             "action": "Updates pushed",
-            "run": "./git.sh"
+            "run": "sudo bash ./git.sh"
         }
     ]
 }
