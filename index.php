@@ -305,7 +305,7 @@
             <div class="d-flex flex-column left-panel-internal w-100 show flex-fill">
                 <div class="d-flex flex-column align-items-start mb-3">
 					<a href="#" class="highlight-btn btn btn-menu rounded-0 border-0 d-flex align-content-stretch p-0 w-100 highlight-cases active">
-						<span class="py-3 px-3">Casos</span>
+						<span class="py-3 px-3">Cases</span>
 						<i class="py-3 fas fa-notes-medical fa-fw ml-auto"></i>
 					</a>
                     <a href="#" class="highlight-btn btn btn-menu rounded-0 border-0 d-flex align-content-stretch p-0 w-100 highlight-deaths">
