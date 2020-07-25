@@ -597,7 +597,7 @@
 					controls.minPolarAngle = Math.PI * 0.05;
 					controls.minDistance = 300;
 					controls.maxDistance = 700;
-					controls.autoRotate = true;
+					controls.autoRotate = false;
 					controls.enableDamping = true;
 					controls.dampingFactor = 0.15;
 					controls.enablePan = false;
