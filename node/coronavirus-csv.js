@@ -1,9 +1,12 @@
 const csv = require('csv-parser');
 const http = require('https');
 const fs = require('fs');
+const path = require('path');
 
-const tempFile = "../data/_data.csv";
-const saveFile = "../data/data.csv";
+
+const tempFile = path.join(__dirname , `/../data/_data.csv`);
+const saveFile = path.join(__dirname , `/../data/data.csv`);
+const dataFile = path.join(__dirname , `/../data/coronavirus-data.csv`);
 
 const file = fs.createWriteStream(tempFile);
 const request = http.get("https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv", function(response) {
@@ -60,7 +63,7 @@ const request = http.get("https://raw.githubusercontent.com/owid/covid-19-data/m
 
           const csvdata = [];
 
-          fs.createReadStream('../data/data.csv')
+          fs.createReadStream(saveFile)
             .pipe(csv())
             .on('data', (row) => {
               var country = {
@@ -105,7 +108,7 @@ const request = http.get("https://raw.githubusercontent.com/owid/covid-19-data/m
               });
               const createCsvWriter = require('csv-writer').createObjectCsvWriter;
               const csvWriter = createCsvWriter({
-                path: '../data/coronavirus-data.csv',
+                path: dataFile,
                 header: [
                   {id: 'location', title: 'location'},
                   {id: 'death_pm', title: 'death_pm'},
