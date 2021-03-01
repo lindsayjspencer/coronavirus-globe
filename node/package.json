@@ -13,7 +13,7 @@
     "bootstrap": "^4.5.0",
     "jquery": "^3.5.1",
     "node-sass": "^4.14.1",
-    "three": "^0.118.3",
+    "three": "^0.125.0",
     "tween.js": "^16.6.0",
     "csv-parser": "^2.3.2",
     "csv-writer": "^1.6.0"
